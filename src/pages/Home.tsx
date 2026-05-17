@@ -194,7 +194,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-24">
             <span className="text-troperfly-blue font-bold text-xs uppercase tracking-[0.4em] mb-6 block">Nuestra Innovación</span>
-            <h2 className="text-5xl md:text-7xl font-bold mb-8 uppercase tracking-tighter font-display">ScoreDriver Core</h2>
+            <h2 className="text-5xl md:text-7xl font-bold mb-8 uppercase tracking-tighter font-display">Troperfly Score</h2>
             <p className="text-white/50 text-xl max-w-2xl mx-auto font-medium font-sans">Un Score de Rendimiento y Confiabilidad construido a partir de variables verificables en tiempo real.</p>
           </div>
           
@@ -334,7 +334,7 @@ export default function Home() {
               icon={Zap}
               index={4}
               title="Esquema de Incentivos"
-              description="Administración de bonos por eficiencia, rutas preferentes y metas de cumplimiento basadas en el ScoreDriver."
+              description="Administración de bonos por eficiencia, rutas preferentes y metas de cumplimiento basadas en el Troperfly Score."
             />
             <FeatureCard 
               icon={BarChart3}
