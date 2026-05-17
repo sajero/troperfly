@@ -217,28 +217,3 @@ export const SECTIONS: SectionContent[] = [
     ]
   }
 ];
-
-
-interface SectionContentRendererProps {
-  section: SectionContent;
-}
-
-export function SectionContentRenderer({ section }: SectionContentRendererProps) {
-  return (
-      <section>
-          <h2>{section.title}</h2>
-      <p>{section.subtitle}</p>
-
-  {section.content.map((paragraph, paragraphIndex) => (
-      <p key={`${section.id}-${paragraphIndex}`}>
-    {paragraph.split('\n').map((line, lineIndex, lines) => (
-        <span key={`${section.id}-${paragraphIndex}-${lineIndex}`}>
-      {line}
-      {lineIndex < lines.length - 1 ? <br /> : null}
-      </span>
-    ))}
-    </p>
-  ))}
-  </section>
-);
-}
