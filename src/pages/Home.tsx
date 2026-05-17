@@ -65,9 +65,9 @@ export default function Home() {
               <span className="text-troperfly-blue">Confiable</span> <br/>
               con IA.
             </h1>
-              <h2 className="text-5xl md:text-[5.5rem] font-bold tracking-tighter text-troperfly-graphite mb-10 leading-[0.95] uppercase font-display">
+              <h2 className='text-2xl md:text-5xl font-bold tracking-tighter text-troperfly-graphite mb-10 leading-[0.95] uppercase font-display'>
                   trucker + operator + IA = <br/>
-                  <span className="text-troperfly-blue">troperfly</span> <br/>
+                  <span className='text-troperfly-blue'>troperfly</span> <br/>
                   con IA.
               </h2>
             <p className="text-xl text-gray-500 mb-12 max-w-xl leading-relaxed font-medium font-sans">
