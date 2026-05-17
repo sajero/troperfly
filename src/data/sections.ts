@@ -45,27 +45,13 @@ export const SECTIONS: SectionContent[] = [
     category: 'analysis',
     content: [
       `Los usuarios y actores principales de troperfly.ai son los siguientes:`,
-      `Empresa contratante
-Rol dentro del sistema: solicita operadores para cubrir servicios logísticos.
-Necesidad principal: contar con operadores confiables, disponibles y adecuados al tipo de operación.`,
-      `Agencia troperfly.ai
-Rol dentro del sistema: recluta, certifica, capacita, administra y asigna operadores.
-Necesidad principal: gestionar talento logístico con criterios medibles, trazables y rentables.`,
-      `Operador de transporte
-Rol dentro del sistema: ejecuta rutas, entregas y servicios de carga.
-Necesidad principal: acceder a empleo formal, capacitación, mejores rutas e incentivos por desempeño.`,
-      `Coordinador logístico
-Rol dentro del sistema: supervisa rutas, unidades, cumplimiento y disponibilidad.
-Necesidad principal: tomar decisiones rápidas sobre asignación, reemplazo y continuidad operativa.`,
-      `Área de seguridad patrimonial
-Rol dentro del sistema: evalúa riesgos de siniestros, robos o incidentes.
-Necesidad principal: reducir exposición operativa y proteger mercancía.`,
-      `Área de recursos humanos
-Rol dentro del sistema: participa en reclutamiento, documentación y capacitación.
-Necesidad principal: estandarizar perfiles y reducir rotación.`,
-      `Cliente final o punto de entrega
-Rol dentro del sistema: recibe mercancía.
-Necesidad principal: obtener entregas puntuales, correctas y con buen servicio.`
+      `Empresa contratante\nRol dentro del sistema: solicita operadores para cubrir servicios logísticos.\nNecesidad principal: contar con operadores confiables, disponibles y adecuados al tipo de operación.`,
+      `Agencia troperfly.ai\nRol dentro del sistema: recluta, certifica, capacita, administra y asigna operadores.\nNecesidad principal: gestionar talento logístico con criterios medibles, trazables y rentables.`,
+      `Operador de transporte\nRol dentro del sistema: ejecuta rutas, entregas y servicios de carga.\nNecesidad principal: acceder a empleo formal, capacitación, mejores rutas e incentivos por desempeño.`,
+      `Coordinador logístico\nRol dentro del sistema: supervisa rutas, unidades, cumplimiento y disponibilidad.\nNecesidad principal: tomar decisiones rápidas sobre asignación, reemplazo y continuidad operativa.`,
+      `Área de seguridad patrimonial\nRol dentro del sistema: evalúa riesgos de siniestros, robos o incidentes.\nNecesidad principal: reducir exposición operativa y proteger mercancía.`,
+      `Área de recursos humanos\nRol dentro del sistema: participa en reclutamiento, documentación y capacitación.\nNecesidad principal: estandarizar perfiles y reducir rotación.`,
+      `Cliente final o punto de entrega\nRol dentro del sistema: recibe mercancía.\nNecesidad principal: obtener entregas puntuales, correctas y con buen servicio.`
     ]
   },
   {
@@ -75,44 +61,26 @@ Necesidad principal: obtener entregas puntuales, correctas y con buen servicio.`
     category: 'analysis',
     content: [
       `4.1 Necesidades`,
-      `1. Evaluar la confiabilidad del operador.
-La empresa requiere conocer si el operador tiene historial adecuado para cubrir una ruta o carga específica.`,
-      `2. Reducir riesgos operativos.
-Se busca disminuir accidentes, incumplimientos, conflictos en entrega, pérdidas y malas prácticas.`,
-      `3. Clasificar perfiles por tipo de operación.
-No todos los operadores son adecuados para larga distancia, última milla, reparto capilar, carga crítica o comercio electrónico.`,
-      `4. Mejorar atracción y retención.
-La agencia necesita formar una base estable de operadores calificados.`,
-      `5. Medir desempeño con indicadores.
-Se requiere pasar de evaluaciones subjetivas a métricas verificables.`,
-      `6. Crear trazabilidad del desempeño.
-La empresa necesita evidencia histórica para justificar asignaciones y decisiones.`,
-      `7. Profesionalizar al operador.
-El operador requiere capacitación, reconocimiento, retroalimentación y plan de carrera.`,
+      `1. Evaluar la confiabilidad del operador.\nLa empresa requiere conocer si el operador tiene historial adecuado para cubrir una ruta o carga específica.`,
+      `2. Reducir riesgos operativos.\nSe busca disminuir accidentes, incumplimientos, conflictos en entrega, pérdidas y malas prácticas.`,
+      `3. Clasificar perfiles por tipo de operación.\nNo todos los operadores son adecuados para larga distancia, última milla, reparto capilar, carga crítica o comercio electrónico.`,
+      `4. Mejorar atracción y retención.\nLa agencia necesita formar una base estable de operadores calificados.`,
+      `5. Medir desempeño con indicadores.\nSe requiere pasar de evaluaciones subjetivas a métricas verificables.`,
+      `6. Crear trazabilidad del desempeño.\nLa empresa necesita evidencia histórica para justificar asignaciones y decisiones.`,
+      `7. Profesionalizar al operador.\nEl operador requiere capacitación, reconocimiento, retroalimentación y plan de carrera.`,
       `4.2 Deseos`,
-      `1. Gamificación del plan de carrera.
-El operador podría visualizar niveles de avance, logros, metas y beneficios.`,
-      `2. Rutas preferentes para mejores operadores.
-Los operadores con mejor desempeño podrían acceder a rutas mejor pagadas o con mejores condiciones.`,
-      `3. Bonos por desempeño.
-Se podría incentivar ahorro de combustible, puntualidad, cero incidencias y buen servicio.`,
-      `4. Tablero ejecutivo para clientes.
-Las empresas podrían consultar disponibilidad, desempeño, riesgo y trazabilidad del servicio.`,
-      `5. Integración con telemetría.
-La plataforma podría recibir datos de GPS, CAN bus o sistemas de administración de flota.`,
+      `1. Gamificación del plan de carrera.\nEl operador podría visualizar niveles de avance, logros, metas y beneficios.`,
+      `2. Rutas preferentes para mejores operadores.\nLos operadores con mejor desempeño podrían acceder a rutas mejor pagadas o con mejores condiciones.`,
+      `3. Bonos por desempeño.\nSe podría incentivar ahorro de combustible, puntualidad, cero incidencias y buen servicio.`,
+      `4. Tablero ejecutivo para clientes.\nLas empresas podrían consultar disponibilidad, desempeño, riesgo y trazabilidad del servicio.`,
+      `5. Integración con telemetría.\nLa plataforma podría recibir datos de GPS, CAN bus o sistemas de administración de flota.`,
       `4.3 Restricciones`,
-      `1. Protección de datos personales.
-El sistema manejaría datos sensibles y debe cumplir con la normativa aplicable.`,
-      `2. Consentimiento informado.
-El operador debe conocer qué datos se recopilan, para qué se usan y cómo se protegen.`,
-      `3. Cumplimiento laboral.
-El modelo de tercerización especializada debe ajustarse al marco legal vigente.`,
-      `4. No discriminación.
-Los criterios de asignación deben enfocarse en aptitud, seguridad, desempeño y cumplimiento, evitando sesgos indebidos.`,
-      `5. Validación humana.
-Las decisiones críticas no deben depender únicamente del algoritmo.`,
-      `6. Calidad de datos.
-El score solo será útil si la información capturada es consistente, verificable y actualizada.`
+      `1. Protección de datos personales.\nEl sistema manejaría datos sensibles y debe cumplir con la normativa aplicable.`,
+      `2. Consentimiento informado.\nEl operador debe conocer qué datos se recopilan, para qué se usan y cómo se protegen.`,
+      `3. Cumplimiento laboral.\nEl modelo de tercerización especializada debe ajustarse al marco legal vigente.`,
+      `4. No discriminación.\nLos criterios de asignación deben enfocarse en aptitud, seguridad, desempeño y cumplimiento, evitando sesgos indebidos.`,
+      `5. Validación humana.\nLas decisiones críticas no deben depender únicamente del algoritmo.`,
+      `6. Calidad de datos.\nEl score solo será útil si la información capturada es consistente, verificable y actualizada.`
     ]
   },
   {
@@ -125,26 +93,16 @@ El score solo será útil si la información capturada es consistente, verificab
       `¿Cómo diseñar una plataforma inteligente de tercerización logística que permita evaluar, certificar y asignar operadores de transporte de carga mediante un Score de Rendimiento y Confiabilidad basado en indicadores medibles de seguridad, desempeño operativo, cumplimiento, aptitud ocupacional, calidad de servicio y compatibilidad con el tipo de ruta, unidad y mercancía?`,
       `Esta formulación es técnica y verificable porque permite evaluar si la solución cumple con indicadores concretos.`,
       `Variables verificables:`,
-      `1. Tiempo de reclutamiento y validación.
-Forma de medición: días promedio desde solicitud hasta operador aprobado.`,
-      `2. Porcentaje de operadores certificados.
-Forma de medición: operadores certificados sobre operadores evaluados.`,
-      `3. Cumplimiento de ventanas de entrega.
-Forma de medición: porcentaje de entregas en tiempo.`,
-      `4. Incidencias operativas.
-Forma de medición: número de accidentes, retrasos, rechazos o conflictos por periodo.`,
-      `5. Rotación de operadores.
-Forma de medición: porcentaje de bajas en un periodo determinado.`,
-      `6. Eficiencia de combustible.
-Forma de medición: kilómetros por litro o consumo por ruta.`,
-      `7. Seguridad vial.
-Forma de medición: número de infracciones, frenados bruscos, excesos de velocidad o eventos críticos.`,
-      `8. Satisfacción del cliente.
-Forma de medición: calificación posterior al servicio.`,
-      `9. Compatibilidad de asignación.
-Forma de medición: correspondencia entre perfil del operador y tipo de operación.`,
-      `10. Trazabilidad.
-Forma de medición: existencia de bitácora con datos usados, recomendación y decisión final.`
+      `1. Tiempo de reclutamiento y validación.\nForma de medición: días promedio desde solicitud hasta operador aprobado.`,
+      `2. Porcentaje de operadores certificados.\nForma de medición: operadores certificados sobre operadores evaluados.`,
+      `3. Cumplimiento de ventanas de entrega.\nForma de medición: porcentaje de entregas en tiempo.`,
+      `4. Incidencias operativas.\nForma de medición: número de accidentes, retrasos, rechazos o conflictos por periodo.`,
+      `5. Rotación de operadores.\nForma de medición: porcentaje de bajas en un periodo determinado.`,
+      `6. Eficiencia de combustible.\nForma de medición: kilómetros por litro o consumo por ruta.`,
+      `7. Seguridad vial.\nForma de medición: número de infracciones, frenados bruscos, excesos de velocidad o eventos críticos.`,
+      `8. Satisfacción del cliente.\nForma de medición: calificación posterior al servicio.`,
+      `9. Compatibilidad de asignación.\nForma de medición: correspondencia entre perfil del operador y tipo de operación.`,
+      `10. Trazabilidad.\nForma de medición: existencia de bitácora con datos usados, recomendación y decisión final.`
     ]
   },
   {
@@ -154,49 +112,29 @@ Forma de medición: existencia de bitácora con datos usados, recomendación y d
     category: 'technical',
     content: [
       `6.1 Requerimientos funcionales`,
-      `RF1. El sistema debe crear un expediente digital por operador.
-Indicador verificable: expediente con documentación, experiencia, licencias, evaluaciones y registros de desempeño.`,
-      `RF2. El sistema debe calcular un Score de Rendimiento y Confiabilidad.
-Indicador verificable: puntuación actualizada por operador en escala definida.`,
-      `RF3. El sistema debe clasificar operadores por tipo de unidad.
-Indicador verificable: clasificación por tractocamión, torton, camioneta, reparto local o última milla.`,
-      `RF4. El sistema debe sugerir asignaciones de ruta.
-Indicador verificable: recomendación basada en score, disponibilidad, tipo de carga y tipo de operación.`,
-      `RF5. El sistema debe registrar incidencias operativas.
-Indicador verificable: historial de accidentes, retrasos, conflictos, rechazos o incumplimientos.`,
-      `RF6. El sistema debe registrar capacitación del operador.
-Indicador verificable: cursos aprobados, evaluaciones, certificaciones y vigencias.`,
-      `RF7. El sistema debe permitir esquema de incentivos.
-Indicador verificable: registro de bonos, metas, niveles y beneficios asignados.`,
+      `RF1. El sistema debe crear un expediente digital por operador.\nIndicador verificable: expediente con documentación, experiencia, licencias, evaluaciones y registros de desempeño.`,
+      `RF2. El sistema debe calcular un Score de Rendimiento y Confiabilidad.\nIndicador verificable: puntuación actualizada por operador en escala definida.`,
+      `RF3. El sistema debe clasificar operadores por tipo de unidad.\nIndicador verificable: clasificación por tractocamión, torton, camioneta, reparto local o última milla.`,
+      `RF4. El sistema debe sugerir asignaciones de ruta.\nIndicador verificable: recomendación basada en score, disponibilidad, tipo de carga y tipo de operación.`,
+      `RF5. El sistema debe registrar incidencias operativas.\nIndicador verificable: historial de accidentes, retrasos, conflictos, rechazos o incumplimientos.`,
+      `RF6. El sistema debe registrar capacitación del operador.\nIndicador verificable: cursos aprobados, evaluaciones, certificaciones y vigencias.`,
+      `RF7. El sistema debe permitir esquema de incentivos.\nIndicador verificable: registro de bonos, metas, niveles y beneficios asignados.`,
       `6.2 Requerimientos técnicos`,
-      `RT1. La plataforma debe integrar información de telemetría cuando esté disponible.
-Indicador verificable: velocidad, frenados bruscos, consumo de combustible, paradas y kilometraje.`,
-      `RT2. El sistema debe permitir actualización periódica del score.
-Indicador verificable: actualización por viaje, semana, mes o periodo operativo definido.`,
-      `RT3. El sistema debe generar tableros para clientes y administradores.
-Indicador verificable: vista de disponibilidad, desempeño, riesgo y cumplimiento.`,
-      `RT4. El sistema debe permitir segmentación de perfiles.
-Indicador verificable: larga distancia, última milla, reparto capilar, comercio electrónico o carga crítica.`,
-      `RT5. El sistema debe operar inicialmente como MVP semiautomatizado.
-Indicador verificable: tablero funcional con cálculo inicial del score y carga manual o semiautomática de datos.`,
+      `RT1. La plataforma debe integrar información de telemetría cuando esté disponible.\nIndicador verificable: velocidad, frenados bruscos, consumo de combustible, paradas y kilometraje.`,
+      `RT2. El sistema debe permitir actualización periódica del score.\nIndicador verificable: actualización por viaje, semana, mes o periodo operativo definido.`,
+      `RT3. El sistema debe generar tableros para clientes y administradores.\nIndicador verificable: vista de disponibilidad, desempeño, riesgo y cumplimiento.`,
+      `RT4. El sistema debe permitir segmentación de perfiles.\nIndicador verificable: larga distancia, última milla, reparto capilar, comercio electrónico o carga crítica.`,
+      `RT5. El sistema debe operar inicialmente como MVP semiautomatizado.\nIndicador verificable: tablero funcional con cálculo inicial del score y carga manual o semiautomática de datos.`,
       `6.3 Requerimientos de restricción`,
-      `RR1. El uso de datos sensibles debe requerir consentimiento expreso.
-Indicador verificable: aviso de privacidad y autorización documentada.`,
-      `RR2. Las decisiones críticas deben ser revisadas por un responsable humano.
-Indicador verificable: registro de aprobación, rechazo o ajuste de asignación.`,
-      `RR3. El sistema debe evitar criterios discriminatorios.
-Indicador verificable: auditoría de variables usadas en el scoring.`,
-      `RR4. El sistema debe cumplir con obligaciones laborales aplicables.
-Indicador verificable: validación del modelo de tercerización especializada.`,
+      `RR1. El uso de datos sensibles debe requerir consentimiento expreso.\nIndicador verificable: aviso de privacidad y autorización documentada.`,
+      `RR2. Las decisiones críticas deben ser revisadas por un responsable humano.\nIndicador verificable: registro de aprobación, rechazo o ajuste de asignación.`,
+      `RR3. El sistema debe evitar criterios discriminatorios.\nIndicador verificable: auditoría de variables usadas en el scoring.`,
+      `RR4. El sistema debe cumplir con obligaciones laborales aplicables.\nIndicador verificable: validación del modelo de tercerización especializada.`,
       `6.4 Requerimientos de calidad`,
-      `RC1. La plataforma debe generar trazabilidad de decisiones.
-Indicador verificable: bitácora con fecha, responsable, datos usados y recomendación emitida.`,
-      `RC2. El sistema debe ser escalable por cliente o región.
-Indicador verificable: capacidad de agregar nuevos clientes, rutas y operadores.`,
-      `RC3. La plataforma debe favorecer usabilidad.
-Indicador verificable: interfaz clara para operador, administrador y cliente.`,
-      `RC4. La solución debe mantener integridad de datos.
-Indicador verificable: registros protegidos, consistentes y actualizables.`
+      `RC1. La plataforma debe generar trazabilidad de decisiones.\nIndicador verificable: bitácora con fecha, responsable, datos usados y recomendación emitida.`,
+      `RC2. El sistema debe ser escalable por cliente o región.\nIndicador verificable: capacidad de agregar nuevos clientes, rutas y operadores.`,
+      `RC3. La plataforma debe favorecer usabilidad.\nIndicador verificable: interfaz clara para operador, administrador y cliente.`,
+      `RC4. La solución debe mantener integridad de datos.\nIndicador verificable: registros protegidos, consistentes y actualizables.`
     ]
   },
   {
@@ -229,33 +167,15 @@ Indicador verificable: registros protegidos, consistentes y actualizables.`
     content: [
       `Aunque el Avance 1 no exige desarrollar por completo la arquitectura del sistema, conviene dejar planteada una arquitectura preliminar para conectar el proyecto con Semana 4 y con la noción de arquitectura del producto.`,
       `troperfly.ai puede organizarse como un sistema modular compuesto por los siguientes subsistemas:`,
-      `1. Módulo de reclutamiento.
-Función principal: captura candidatos, documentos, licencias y experiencia.
-Usuarios relacionados: agencia, recursos humanos y operador.`,
-      `2. Módulo de certificación.
-Función principal: valida requisitos, capacitación y aptitud operativa.
-Usuarios relacionados: agencia, operador y cliente.`,
-      `3. Módulo ScoreDriver.
-Función principal: calcula el Score de Rendimiento y Confiabilidad.
-Usuarios relacionados: agencia y coordinador logístico.`,
-      `4. Módulo de asignación.
-Función principal: sugiere operador según ruta, unidad, carga y disponibilidad.
-Usuarios relacionados: coordinador logístico y empresa contratante.`,
-      `5. Módulo de telemetría.
-Función principal: integra datos de conducción cuando existan fuentes disponibles.
-Usuarios relacionados: cliente y agencia.`,
-      `6. Módulo de incidencias.
-Función principal: registra retrasos, accidentes, conflictos, rechazos o incumplimientos.
-Usuarios relacionados: cliente, operador y agencia.`,
-      `7. Módulo de incentivos.
-Función principal: administra bonos, niveles y rutas preferentes.
-Usuarios relacionados: operador y agencia.`,
-      `8. Módulo de trazabilidad.
-Función principal: conserva evidencia de datos, recomendaciones y decisiones.
-Usuarios relacionados: agencia, cliente y auditoría.`,
-      `9. Módulo de cumplimiento.
-Función principal: gestiona consentimiento, privacidad y restricciones legales.
-Usuarios relacionados: agencia, jurídico y operador.`,
+      `1. Módulo de reclutamiento.\nFunción principal: captura candidatos, documentos, licencias y experiencia.\nUsuarios relacionados: agencia, recursos humanos y operador.`,
+      `2. Módulo de certificación.\nFunción principal: valida requisitos, capacitación y aptitud operativa.\nUsuarios relacionados: agencia, operador y cliente.`,
+      `3. Módulo ScoreDriver.\nFunción principal: calcula el Score de Rendimiento y Confiabilidad.\nUsuarios relacionados: agencia y coordinador logístico.`,
+      `4. Módulo de asignación.\nFunción principal: sugiere operador según ruta, unidad, carga y disponibilidad.\nUsuarios relacionados: coordinador logístico y empresa contratante.`,
+      `5. Módulo de telemetría.\nFunción principal: integra datos de conducción cuando existan fuentes disponibles.\nUsuarios relacionados: cliente y agencia.`,
+      `6. Módulo de incidencias.\nFunción principal: registra retrasos, accidentes, conflictos, rechazos o incumplimientos.\nUsuarios relacionados: cliente, operador y agencia.`,
+      `7. Módulo de incentivos.\nFunción principal: administra bonos, niveles y rutas preferentes.\nUsuarios relacionados: operador y agencia.`,
+      `8. Módulo de trazabilidad.\nFunción principal: conserva evidencia de datos, recomendaciones y decisiones.\nUsuarios relacionados: agencia, cliente y auditoría.`,
+      `9. Módulo de cumplimiento.\nFunción principal: gestiona consentimiento, privacidad y restricciones legales.\nUsuarios relacionados: agencia, jurídico y operador.`,
       `Esta arquitectura modular facilita que el sistema pueda iniciar con funciones básicas y crecer progresivamente sin rediseñar toda la solución. Además, permite aislar funciones críticas, como datos sensibles, cumplimiento laboral y cálculo del score, de otros módulos más operativos, como incentivos o tableros de consulta.`
     ]
   },
@@ -297,3 +217,28 @@ Usuarios relacionados: agencia, jurídico y operador.`,
     ]
   }
 ];
+
+
+interface SectionContentRendererProps {
+  section: SectionContent;
+}
+
+export function SectionContentRenderer({ section }: SectionContentRendererProps) {
+  return (
+      <section>
+          <h2>{section.title}</h2>
+      <p>{section.subtitle}</p>
+
+  {section.content.map((paragraph, paragraphIndex) => (
+      <p key={`${section.id}-${paragraphIndex}`}>
+    {paragraph.split('\n').map((line, lineIndex, lines) => (
+        <span key={`${section.id}-${paragraphIndex}-${lineIndex}`}>
+      {line}
+      {lineIndex < lines.length - 1 ? <br /> : null}
+      </span>
+    ))}
+    </p>
+  ))}
+  </section>
+);
+}
