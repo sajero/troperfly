@@ -23,7 +23,7 @@ export const SECTIONS: SectionContent[] = [
       'Asignatura | Calidad en la innovación de productos, procesos y servicios.',
       'Avance 1 | Fundamentación del problema',
       'Proyecto: Sistema de evaluación, clasificación y asignación de Operadores de Autotransporte de Carga para el Sector Logístico Mexicano',
-      'Nombre comercial provisional: troperfly.ai',
+      'Nombre comercial: troperfly.ai',
       'Equipo 05: Saúl Jerónimo Rodríguez | Isaac David Moreno González | Jose Ruben Gallegos Vázquez | Juan Pablo Olivas Palomares',
       'Fecha de entrega: Domingo, 17 de mayo 2026',
       'El proyecto parte de un problema real y documentado: el déficit de operadores calificados en el autotransporte de carga en México supera las 90,000 vacantes en 2026. Esta situación afecta la continuidad logística, la eficiencia operativa, la seguridad de las mercancías y la capacidad de respuesta de las empresas ante la demanda nacional e internacional. El objetivo del proyecto es diseñar un sistema que permita evaluar, clasificar y asignar operadores de autotransporte de carga a operaciones logísticas de forma confiable, objetiva y verificable.',
