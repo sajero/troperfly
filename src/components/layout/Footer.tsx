@@ -18,7 +18,7 @@ export const Footer = () => (
       <div>
         <h4 className="font-bold mb-8 uppercase text-sm tracking-widest border-b border-gray-100 pb-4 font-display">Plataforma</h4>
         <ul className="space-y-5 text-sm text-gray-500 font-bold uppercase tracking-tighter">
-          <li><a href="#" className="hover:text-troperfly-blue transition-colors">ScoreDriver IA</a></li>
+          <li><a href="#" className="hover:text-troperfly-blue transition-colors">Troperfly Score</a></li>
           <li><a href="#" className="hover:text-troperfly-blue transition-colors">Certificación</a></li>
           <li><a href="#" className="hover:text-troperfly-blue transition-colors">Tercerización</a></li>
           <li><a href="#" className="hover:text-troperfly-blue transition-colors">Asignación Smart</a></li>
