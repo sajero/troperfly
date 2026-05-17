@@ -108,7 +108,7 @@ export default function Home() {
                       <div className="bg-troperfly-graphite rounded-[2.5rem] p-8 shadow-2xl flex flex-col justify-between -translate-y-6 hover:scale-[1.02] transition-transform">
                         <Cpu className="text-troperfly-blue" size={32} />
                         <div>
-                          <p className="text-[11px] font-bold text-white/40 uppercase tracking-widest mb-2 tracking-tighter">ScoreDriver Core</p>
+                          <p className="text-[11px] font-bold text-white/40 uppercase tracking-widest mb-2 tracking-tighter">Troperfly Score</p>
                           <div className="h-2.5 w-full bg-white/10 rounded-full mt-2 overflow-hidden">
                             <motion.div 
                               initial={{ width: 0 }}
