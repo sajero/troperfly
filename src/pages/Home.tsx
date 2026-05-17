@@ -67,8 +67,8 @@ export default function Home() {
             </h1>
               <h2 className='text-2xl md:text-5xl font-bold tracking-tighter text-troperfly-graphite mb-10 leading-[0.95] uppercase font-display'>
                   trucker + operator + IA = <br/>
-                  <span className='text-troperfly-blue'>troperfly</span> <br/>
-                  con IA.
+                  <span className='text-troperfly-blue'>troperfly</span>
+
               </h2>
             <p className="text-xl text-gray-500 mb-12 max-w-xl leading-relaxed font-medium font-sans">
               Diseñamos una plataforma inteligente para la certificación, tercerización y asignación confiable de operadores de transporte de carga.
