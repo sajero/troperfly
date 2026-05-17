@@ -11,6 +11,7 @@ export interface SectionContent {
   content: (string | TableContent)[]; // Soporta texto plano u objetos de tabla
   category: 'context' | 'analysis' | 'technical' | 'conclusion';
 }
+
 export const SECTIONS: SectionContent[] = [
   {
     id: 'introduccion',
@@ -81,7 +82,7 @@ export const SECTIONS: SectionContent[] = [
           ['N7. El sistema debe proveer un operador de reemplazo ante la ausencia imprevista del asignado, en el menor tiempo posible', 'Explícita', 'Las empresas logísticas articulan directamente que una falla en la disponibilidad del operador rompe el compromiso de servicio y genera penalizaciones contractuales.'],
           ['N8. El sistema debe proteger los datos sensibles del operador conforme a la normativa de privacidad vigente', 'Restricción', 'La LFPDPPP exige consentimiento expreso, aviso de privacidad y medidas de seguridad para datos sensibles (salud, antecedentes, toxicología). Esta restricción aplica independientemente del concepto de solución elegido.'],
           ['N9. El sistema debe ser accesible para usuarios con distintos niveles de alfabetización digital', 'Latente', 'La fuerza laboral del sector tiene edad promedio de 44.5 años y alta informalidad (30%). Un sistema que requiera competencias digitales avanzadas del operador tendrá una tasa de adopción baja.'],
-          ['N10. El sistema debe cumplir con los requisitos de operación bajo el régimen de subcontratación especializada (REPSE)', 'Restricción', 'La prestación de servicios especializados de capital humano en México requiere registro vigente en el REPSE. Sin este, la empresa cliente incurre en responsabilidad solidaria ante el SAT.']
+          ['N10. El sistema debe cumplir con los requisitos de operation bajo el régimen de subcontratación especializada (REPSE)', 'Restricción', 'La prestación de servicios especializados de capital humano en México requiere registro vigente en el REPSE. Sin este, la empresa cliente incurre en responsabilidad solidaria ante el SAT.']
         ]
       }
     ]
